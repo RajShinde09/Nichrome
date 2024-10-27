@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:nichrome/Packagingsystems/producthandling.dart';
 import 'package:nichrome/screens/subcategoriesdetails.dart';
+import 'package:nichrome/screens/tablets.dart';
+import '../pages/machine_category_page.dart';
 import 'cat_provider.dart';
 
 class category extends StatefulWidget {
@@ -115,6 +118,7 @@ class SubCategories extends StatelessWidget {
 
           return GestureDetector(
             onTap: () {
+              if(subcategoryItems[currentIndex][index].catName != 'Product Handling' && subcategoryItems[currentIndex][index].catName != 'Secondary Packaging' && subcategoryItems[currentIndex][index].catName != 'Primary Packaging'){
               // Navigate to the detail screen on subcategory tap
               Navigator.push(
                 context,
@@ -126,7 +130,17 @@ class SubCategories extends StatelessWidget {
                     subcategoryDescription: _getSubcategoryDescription(subcategoryItems[currentIndex][index].catName),
                   ),
                 ),
-              );
+              );}
+
+              else if(subcategoryItems[currentIndex][index].catName == 'Product Handling'){
+                Navigator.push(context, MaterialPageRoute(builder: (context)=> producthandling()));
+              }
+              else if(subcategoryItems[currentIndex][index].catName == 'Primary Packaging'){
+                Navigator.push(context, MaterialPageRoute(builder: (context)=> MachineCategoryPage(industry: 'Primary Packaging')));
+              }
+              else if(subcategoryItems[currentIndex][index].catName == 'Secondary Packaging'){
+                Navigator.push(context, MaterialPageRoute(builder: (context)=> MachineCategoryPage(industry: 'Secondary Packaging')));
+              }
             },
             child: Column(
               children: [
@@ -168,6 +182,12 @@ String _getSubcategoryDescription(String subcategoryName) {
       return 'Wing Sickpack is a versatile packaging machine designed for stickpack applications.';
     case 'Maxima 200':
       return 'Maxima 200 is a flexible machine for packaging applications across industries.';
+    case 'Track and Trace':
+      return "Nichrome offers Partial or Complete Track & Trace solutions right from raw material stage till retail sales.\n\nFeatures:\n\t\t1) Software\n\t\t2) Cloud Storage (Real time data)\n\t\t3) Complete Hardware";
+    case 'Warehousing':
+      return "Nichrome’s Warehousing solutions are aimed at small and mid-sized companies for Warehousing - Storage / Retrieval.\n\nWe offer:\n\t\t1) Product Conveying\n\t\t2) Storage\n\t\t3) Traffic Management\n\t\t4) Coding and Data Capturing";
+    case 'End of Line Packaging':
+      return "Nichrome’s end of line packaging offers Palletization solutions for both\n\t\t1) Bag\n\t\t2) Cases\n\nWe offer customized solutions including:\n\t\t1) Automatic Pallet Dispensing\n\t\t2) Collation using Pick & Place (Robotic / Gantry)\n\t\t3) Palletizer (Robotic / Gantry)\n\t\t4) Multiple Line Configuration Integration\n\t\t5) Stretch Wrapping";
   // Add cases for other subcategories
     default:
       return 'This is a versatile and efficient machine used for a wide variety of packaging applications.';

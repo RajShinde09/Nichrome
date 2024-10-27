@@ -189,12 +189,12 @@ final List<Category> packgingsystems = [
   Category(
     catName: 'End of Line Packaging',
     catImageUrl:
-        'https://www.nichrome.com/images/2022/06/palletization/palletization-small.jpg',
+        'https://www.nichrome.com/images/2022/06/palletizing.jpg',
   ),
   Category(
     catName: 'Warehousing',
     catImageUrl:
-        'https://www.nichrome.com/images/2022/08/Warehousing.jpg',
+        'https://www.nichrome.com/images/2022/08/Warehousing-2.jpg',
   ),
   Category(
     catName: 'Track and Trace',

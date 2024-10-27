@@ -201,72 +201,94 @@ class MachineData {
       name: 'Bottle Filling Line',
       imageUrl: 'https://www.nichrome.com/images/2022/08/bottle-filling-line/Bottle-Filling-Line-Machine.jpg',
       categories: ['Packaging Systems'],
-      industries: ['Grains','Tablets','Powders','Sugar','Milk','Tea','Oil','Ready to eat'],
+      industries: ['Grains','Tablets','Powders','Sugar','Milk','Tea','Oil','Ready to eat','Primary Packaging'],
       description: "Nichrome presents a versatile bottle filling line for liquids, powders, granules & solids. Applications range from milk, cleaning products, protein powder, spice powders, seasonings, pharma powders to pulses, grains, sugar, tea, tablets, dry fruits, soya chunks & whole spices. Just change the filler and use the filling line for any liquid, powder and solid application.\n The PLC-controlled system is fitted with a unique ‘no bottle no filling’ safety device, and safety enclosures with interlocks for rotary parts. It works well for glass, HDPE and PP bottles and offers fast changeover for different bottle sizes.",
     ),
     Machine(
       name: 'Jar Filling Line',
       imageUrl: 'https://www.nichrome.com/images/2022/04/packaging-systems/Jar-Filing-Packaging-Machine.jpg',
       categories: ['Packaging Systems'],
-      industries: ['Grains','Gel','Adhesives','Paint Powders','Sugar','Milk','Powders','Tea','Namkeen','Oil','Adhesives','Lube Oil'],
+      industries: ['Grains','Gel','Adhesives','Paint Powders','Sugar','Milk','Powders','Tea','Namkeen','Oil','Adhesives','Lube Oil','Primary Packaging'],
       description: "Nichrome presents a versatile jar filling & packaging system is widely used to fill solids like tea, small biscuits, nutraceutical powders, health drinks, wrapped candies, etc. viscous like ghee, peanut butter, mayonnaise, chyawanprash, etc. powders, granules, candies, biscuits, etc. into bottles and jars. We provide the complete solution for all kind of bottle filling, foil sealing, capping, labeling and batch coding requirement.The PLC-controlled system is fitted with a unique ‘no bottle no filling’ safety device, and safety enclosures with interlocks for rotary parts. It works well for glass, HDPE and PP bottles and offers fast changeover for different Jar sizes.",
     ),
     Machine(
       name: 'Tin Filling Line',
       imageUrl: 'https://www.nichrome.com/images/2022/12/27/Tin-filling-Machine-large.jpg',
       categories: ['Packaging Systems'],
-      industries: ['Oil','Gel', 'Milk','Powders','Lube Oil'],
+      industries: ['Oil','Gel', 'Milk','Powders','Lube Oil','Primary Packaging'],
       description: "Nichrome's TIN FILLING LINE is a sturdy, low-maintenance system made for accurate and efficient performance.\n\nThe PLC-controlled line has a digital LCD touch screen displaying settings, and safety enclosures with interlocks for rotary parts.\n\nMachine construction is available in SS3014, SS316 and MS painted material. Various tin sterilization and cleaning options are available",
     ),
     Machine(
       name: 'Vertical Cartoner',
       imageUrl: 'https://www.nichrome.com/images/2022/06/secondary-packaging/vertical-cartoning/Vertical-Cartoning-Alpha-V12.jpg',
       categories: ['Packaging Systems'],
-      industries: ['Grains','Tablets','Powders','Tea','Namkeen','Agrochemicals','Fertilizers','Gel'],
+      industries: ['Grains','Tablets','Powders','Tea','Namkeen','Agrochemicals','Fertilizers','Gel','Secondary Packaging'],
       description: "Discover fast and efficient cartoning with Nichrome’s VERTICAL CARTONING MACHINE. This secondary packaging machine has a rated output of upto 120 cartons per minute, and handles a variety of cartons with option of both side tuck-in, both side gluing or top tuck-in with bottom gluing.\n  The machine structure is of MS sheet metal for durability. Some key features include adjustable carton conveyor with chain type design, servo indexing drive to carton and product chain, motorized carton pick up with vacuum cups, and facility for product insertion inside carton through motor-driven product pusher",
     ),
     Machine(
       name: 'Horizontal Cartoner',
       imageUrl: 'https://www.nichrome.com/images/2022/07/Packaging-system/Horizontal-Cartoning-Machine.jpg',
       categories: ['Packaging Systems'],
-      industries: ['Grains','Oil','Namkeen','Tablets','Capsules','Gel','Powders','Tea','Agrochemicals','Fertilizers','Gel'],
+      industries: ['Grains','Oil','Namkeen','Tablets','Capsules','Gel','Powders','Tea','Agrochemicals','Fertilizers','Gel','Secondary Packaging'],
       description: "Discover fast and efficient cartoning with Nichrome’s HORIZONTAL CARTONING MACHINE. This secondary packaging machine has a rated output of upto 180 cartons per minute, and handles a variety of cartons with option of both side tuck-in, both side gluing or top tuck-in with bottom gluing.\n  We offer both Continuous and Intermittent Fully automatic Horizontal Cartoners which we integrate with primary packaging.\n Features:\n Flexibility for size range and quick change-over system\n Additional positive product inserter before flap closure (special for rigid products & pouches)\n Auto pre-folded leaflet insertion\n Machine guards with positive safety interlocks\n Sensors for monitoring carton and pouch\n Speed up to 180 cartons per minute",
     ),
     Machine(
       name: 'Case Erector',
       imageUrl: 'https://www.nichrome.com/images/2022/06/secondary-packaging/Case-erector/case-erector-machine.jpg',
       categories: ['Packaging Systems'],
-      industries: ['Grains','Gel','Oil','Namkeen','Tablets','Capsules','Gel','Sugar','Milk','Powders', 'Tea','Agrochemicals','Fertilizers','Adhesives','Lube Oil'],
+      industries: ['Grains','Gel','Oil','Namkeen','Tablets','Capsules','Gel','Sugar','Milk','Powders', 'Tea','Agrochemicals','Fertilizers','Adhesives','Lube Oil','Secondary Packaging'],
       description: "Nichrome’s case erectors are reliable and designed to specifically address the usual problems in automatic erection of cases owing to the quality of the corrugated board and the imperfections in its forming process.\n A unique mechanism is incorporated in this machine to positively open the case irrespective of case quality and ensure squareness throughout the forming process.",
     ),
     Machine(
       name: 'Automatic Pouch Collation & Flow Wrapping(Flexiwrap ST)',
       imageUrl: 'https://www.nichrome.com/images/2022/06/secondary-packaging/flexiwrap-st/Flexiwrap-ST-Machine-Large.jpg',
       categories: ['Packaging Systems'],
-      industries: ['Grains','Powders', 'Tea','Agrochemicals','Fertilizers'],
+      industries: ['Grains','Powders', 'Tea','Agrochemicals','Fertilizers','Secondary Packaging'],
       description: "With Nichrome’s new Secondary Packaging Solution – Flexiwrap ST, you can integrate with existing form fill seal / FFS machine to collate/bundle and flow wrap individual pouches in to Distributor Packs / Retail Ready Packs.",
     ),
     Machine(
       name: 'Flexiwrap 700: Flow Wrap Machine',
       imageUrl: 'https://www.nichrome.com/images/2022/06/secondary-packaging/Flexiwrap-700-Large.jpg',
       categories: ['Packaging Systems'],
-      industries: ['Milk','Gel', 'Sugar','Powders','Tea','Namkeen','Oil','Agrochemicals','Fertilizers','Adhesives'],
+      industries: ['Milk','Gel','Secondary Packaging', 'Sugar','Powders','Tea','Namkeen','Oil','Agrochemicals','Fertilizers','Adhesives'],
       description: "With the Flexiwrap 700, secondary CSPP Flow-wrapped pouches are formed for a wide range of layflat widths, upto 700mm.\n\nOperation is as follows:\n\tManual Product Feeding in to specialized conveyor\n\tAutomatic flow wrapping",
     ),
     Machine(
       name: 'Pick & Place Solutions',
       imageUrl: 'https://www.nichrome.com/images/2023/07/17/Pick-and-pack.jpg',
       categories: ['Packaging Systems'],
-      industries: ['Oil','Gel', 'Sugar','Milk','Powders', 'Tea','Namkeen','Agrochemicals','Fertilizers','Adhesives','Lube Oil'],
+      industries: ['Oil','Gel','Secondary Packaging', 'Sugar','Milk','Powders', 'Tea','Namkeen','Agrochemicals','Fertilizers','Adhesives','Lube Oil'],
       description: "Customised Pick & Place solutions for secondary packaging.\n\tRobotic\nGantry/ Mechanical\nSolutions Available for both:\n\tRigid Products\nFlexible Products",
     ),
     Machine(
       name: 'Bulk Bag Filling',
       imageUrl: 'https://www.nichrome.com/images/2022/08/Bulk-bag-filling/Bulk-Bag-Filling-Machine-02.jpg',
       categories: ['Packaging Systems'],
-      industries: ['Agrochemicals','Fertilizers'],
+      industries: ['Agrochemicals','Fertilizers','Primary Packaging'],
       description: "The new BULK PACKING MACHINE from Nichrome is designed for packing large bags of 5 to 50 kgs. The bags could be HDPE woven, PP, paper or valve type. It is ideally suited for products such as rice, sugar, grains, pulses, flour, cake mix, cement and agro-chemical granules.\n\nThe PLC-controlled machine delivers output rates up to 20 bags per minute, and has a special 'no bag no filling' safety device. Other features include auto bag clamping, bulk and dribble feed, and bag tilting & alignment attachment with option of bag stitching or band sealing."
     ),
+    Machine(
+      name: 'Bulk Bag Filling',
+      imageUrl: 'https://www.nichrome.com/images/2022/08/Bulk-bag-filling/Bulk-Bag-Filling-Machine-02.jpg',
+      categories: ['Packaging Systems'],
+      industries: ['Agrochemicals','Fertilizers','Primary Packaging'],
+      description: "The new BULK PACKING MACHINE from Nichrome is designed for packing large bags of 5 to 50 kgs. The bags could be HDPE woven, PP, paper or valve type. It is ideally suited for products such as rice, sugar, grains, pulses, flour, cake mix, cement and agro-chemical granules.\n\nThe PLC-controlled machine delivers output rates up to 20 bags per minute, and has a special 'no bag no filling' safety device. Other features include auto bag clamping, bulk and dribble feed, and bag tilting & alignment attachment with option of bag stitching or band sealing."
+    ),
+    Machine(
+      name: 'Semi Automatic Case Packer (Smart Case Packer)',
+      imageUrl: 'https://www.nichrome.com/images/2022/12/27/smart-case-packer-large.jpg',
+      categories: ['Packaging Systems'],
+      industries: ['Secondary Packaging'],
+      description: "Our Smart Case Packer is a semi-automatic solution for your carton bundling and case packaging needs.\n\nSimply insert a pre-formed case on to the machine and it inserts the bundled cartons automatically!\n\nCartoning counting, collating/bundling and insertion into case is fully automatic.\n\nFeatures:\n\t\t1) Ergonomically designed with robust construction\n\t\t2) PLC controlled with HMI\n\t\t3) Highly Flexible – designed for quick & easy product change-overs\n\t\t4) Carton collation monitoring\n\t\t5) Automatic collation of cartons and automatic insertion of collated carton in to case\n\t\t6) Sensors for product and safety monitoring\n\t\t7) Speed is upto 3 cases per minute (*can vary depending on collation matrix & carton dimensions)"
+    ),
+    Machine(
+      name: 'Fully Automatic Case Packer (Auto Case Packer)',
+      imageUrl: 'https://www.nichrome.com/images/2023/07/17/Fully-Automatic-Case-Packer.jpg',
+      categories: ['Packaging Systems'],
+      industries: ['Secondary Packaging'],
+      description: "Our Auto Case Packer is a fully automatic solution which –\n\t\t1) Automatically Forms Cases\n\t\t2) Automatically counts, collates and forms Carton matrix\n\t\t3) Automatically inserts collated Carton matrix into the Case\n\t\t4) Automatically tapes top and bottom of Case\n\t\t5) Speed of upto 6 shippers per minute (*can vary depending on carton size, weight & collation matrix)"
+    ),
+
 
 
 
